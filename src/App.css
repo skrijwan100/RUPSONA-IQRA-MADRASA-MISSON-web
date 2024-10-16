@@ -1,0 +1,18 @@
+.navbar {
+  position: fixed;
+  top:0px; 
+  width: 100%;
+  z-index: 999;
+
+}
+.active{
+  /* background-color: aqua; */
+  background: linear-gradient(45deg, #00d9ff, #ff00a2);
+  border-radius: 3px;
+}
+.textscroll{
+  background: #585858;
+  font-size: 25px;
+  color: #00ff42;
+  padding: 6px;
+}
