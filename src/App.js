@@ -9,11 +9,16 @@ import Student from './component/Student';
 import callimg from "./Asset/call.png"
 import { useState } from 'react';
 import Loader from './component/Loder';
+import "./media.css"
+import Mobilenav from './component/Mobilenav';
+
+
 
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [progress, setProgress] = useState(0);
+
   
   // Function to start the loader
   const startLoader = () => {
@@ -37,10 +42,11 @@ function App() {
       <Loader isLoading={isLoading} progress={progress}  />
       <div className='navbar'>
         <Navbar startLoader={startLoader} />
+        <Mobilenav startLoader={startLoader}/>
 
       </div>
       <div className="scrolltext" style={{ paddingTop: "75px" }}>
-        <marquee className="textscroll" behavior="alternate" direction="right" ><b>RUPSONA IQRA MADRASA MISSON  | Esat:2021 | Admisson open | <img src={callimg} alt="" style={{height:"17px",width:"19px"}} /> Call: 9735183059</b></marquee>
+        <marquee className="textscroll" behavior="alternate" direction="right" ><b>RUPSONA IQRA MADRASA MISSION  | Esat:2021 | Admisson open | <img src={callimg} alt="" style={{height:"17px",width:"19px"}} /> Call: 9735183059 , 9907653727</b></marquee>
       </div>
       <div className="element">
         <Routes>

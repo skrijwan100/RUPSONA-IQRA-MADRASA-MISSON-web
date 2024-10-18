@@ -5,7 +5,7 @@
   z-index: 999;
 
 }
-.active{
+.navactive{
   /* background-color: aqua; */
   background: linear-gradient(45deg, #00d9ff, #ff00a2);
   border-radius: 3px;

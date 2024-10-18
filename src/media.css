@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    .navname{
+        font-size: 11px;
+    }
+    .scrolltext{
+        padding-top: 94px !important;
+    }
+
+
+  }
+  @media (max-width: 668px) {
+    .navhide{
+        display: none;
+    }
+    .shownav{
+        display:block !important;
+    }
+  }
