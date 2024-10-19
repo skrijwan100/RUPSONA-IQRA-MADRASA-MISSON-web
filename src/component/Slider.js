@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import arrowback from "../Asset/arrow_back.png"
+import arrowfrowed from "../Asset/arrow_forward.png"
 
 const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -36,8 +38,8 @@ const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
         ))}
       </div>
 
-      <button className="prev-btn" onClick={prevSlide}>Prev</button>
-      <button className="next-btn" onClick={nextSlide}>Next</button>
+      <button className="prev-btn" onClick={prevSlide}><img src={arrowback} alt=""  style={{height:"25px",width:"25px"}}/></button>
+      <button className="next-btn" onClick={nextSlide}><img src={arrowfrowed} alt="" style={{height:"25px",width:"25px"}} /></button>
 
       <style jsx>{`
         .slider-container {
@@ -66,7 +68,6 @@ const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
 
         img {
           width: 100%;
-          height: 300px;
           object-fit: cover;
         }
 
@@ -74,7 +75,7 @@ const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
           position: absolute;
           top: 50%;
           transform: translateY(-50%);
-          background-color: rgba(0, 0, 0, 0.5);
+          border-radius: 50%;
           color: white;
           border: none;
           padding: 10px;

@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 export default function Navbar({startLoader}) {
     const location= useLocation()
-    const handleclick=(e)=>{
+    const handleclick=()=>{
         startLoader()
     }
     return (
