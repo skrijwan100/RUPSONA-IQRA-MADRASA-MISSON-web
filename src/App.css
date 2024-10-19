@@ -25,3 +25,11 @@
   transform: translateX(352px) !important;
 
 }
+.box1{
+  height: 330px;
+  width: 330px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #0015ff, #00ffa4);
+}
