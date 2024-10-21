@@ -16,3 +16,17 @@
         display:block !important;
     }
   }
+  @media (max-width: 671px) {
+    .headtext{
+        margin-left: 0px !important;
+    }
+  }
+  @media (max-width: 425px) {
+    .callbox{
+        width: 96vw !important;
+    }
+    .msgbox{
+        
+        width: 96vw !important;
+    }
+  }

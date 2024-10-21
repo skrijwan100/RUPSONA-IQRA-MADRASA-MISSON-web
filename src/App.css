@@ -31,5 +31,43 @@
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out ;
   background: linear-gradient(45deg, #0015ff, #00ffa4);
+  &:hover{
+    transform: scale(1.07);
+  }
+}
+.callbox{
+  transition: transform 0.3s ease-in-out ;
+  background: linear-gradient(45deg, #445871, #152f50);
+  cursor: pointer;
+  box-shadow: 9px 2px 12px 2px black;
+  &:hover{
+    transform: scale(1.07);
+  }
+
+}
+.msgbox{
+  transition: transform 0.3s ease-in-out ;
+  background: linear-gradient(45deg, #445871, #152f50);
+  cursor: pointer;
+  box-shadow: 9px 2px 12px 2px black;
+  border-radius: 30px;
+  &:hover{
+    transform: scale(1.07);
+  }
+
+}
+.btnmag{
+  background-color: #46bbcc;
+  transition:transform 0.3s ease-in-out ;
+  font-size: 15px;
+  &:hover{
+    transform: scale(1.07);
+    background-color: #3099a9;
+  }
+  &:active{
+    background-color: #2e8a98;
+  }
 }
