@@ -1,7 +1,7 @@
 import React from 'react'
 import callImg from '../Asset/call_black.png'
 import msg from '../Asset/chat.png'
-
+import { TypeAnimation } from 'react-type-animation';
 export default function Contact() {
 
   return (
@@ -12,9 +12,20 @@ export default function Contact() {
           <img src={msg} alt="" style={{ height: "75px", width: "75px" }} />
 
         </div>
-        <div className='headtext' style={{ marginLeft: "137px", fontSize: "xx-large", color: "#00ffa4", fontWeight: "700", padding: "33px" }}>
-          Call us for Admisson || Send a message for Admisson
-        </div>
+        <TypeAnimation className='headtext' style={{fontSize: "xx-large", color: "#00ffa4", fontWeight: "700", padding: "33px" }}
+         sequence={[
+          // Same substring at the start will only be typed out once, initially
+          '  Call us for Admisson',
+          2000, // wait 1s before replacing "Mice" with "Hamsters"
+          'OR',
+          700,
+          'Send a message for Admisson',
+          2000,
+        ]}
+        wrapper="div"
+        speed={50}
+        repeat={Infinity}/>
+
       </div>
       <div className="magcall" style={{ display: "flex", justifyContent: "space-around", margin: "10px 0px", flexWrap: "wrap", gap: "20px" }}>
         <div className="callbox" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "350px", width: "400px", borderRadius: "30px" }}>

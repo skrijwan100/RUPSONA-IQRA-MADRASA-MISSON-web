@@ -30,3 +30,13 @@
         width: 96vw !important;
     }
   }
+@media (max-width: 425px) {
+    .tpic{
+        width: 98vw !important;
+    }
+}
+@media (max-width: 509px) {
+    .targettext{
+        width: 98vw !important;
+    }
+}

@@ -5,7 +5,6 @@ import arrowfrowed from "../Asset/arrow_forward.png"
 const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // Handle next and previous slide change manually
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   };
@@ -14,11 +13,11 @@ const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
 
-  // Autoplay functionality
+
   useEffect(() => {
     const slideInterval = setInterval(nextSlide, autoPlayInterval);
 
-    // Cleanup the interval on component unmount
+
     return () => clearInterval(slideInterval);
   }, [currentSlide, autoPlayInterval]);
 
@@ -30,7 +29,7 @@ const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
             className={`slide ${index === currentSlide ? 'active' : ''}`}
             key={index}
             style={{
-              display: index === currentSlide ? 'block' : 'none', // Hide inactive slides
+              display: index === currentSlide ? 'block' : 'none',
             }}
           >
             <img src={slide} alt={`Slide ${index}`} />
@@ -69,6 +68,7 @@ const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
         img {
           width: 100%;
           object-fit: cover;
+          height: 331px;
         }
 
         .prev-btn, .next-btn {
