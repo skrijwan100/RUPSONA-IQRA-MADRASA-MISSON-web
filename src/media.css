@@ -40,3 +40,8 @@
         width: 98vw !important;
     }
 }
+@media (max-width: 460px) {
+        .text{
+            height: 260px !important;
+        }
+}

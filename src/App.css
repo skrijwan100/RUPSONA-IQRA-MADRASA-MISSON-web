@@ -71,3 +71,23 @@
     background-color: #2e8a98;
   }
 }
+.btnfood{
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: pink;
+    cursor: pointer;
+    padding: 7px;
+    font-family: cursive;
+    color: #00569b;
+    margin-bottom: 11px;
+    transition: all 0.4s ease-in-out;
+    &:hover{
+      background-color: rgb(245, 143, 160); 
+      transform: scale(1.03);
+    }
+    &:active{
+      background-color: rgb(249, 113, 135); 
+
+    }
+}

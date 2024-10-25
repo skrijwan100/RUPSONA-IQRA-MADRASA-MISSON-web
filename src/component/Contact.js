@@ -6,7 +6,7 @@ export default function Contact() {
 
   return (
     <div style={{ marginTop: "-5px" }}>
-      <div className="text" style={{ backgroundColor: "#445871", width: "100vw", height: "260px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <div className="text" style={{ backgroundColor: "#445871", width: "100vw", display: "flex", flexDirection: "column", alignItems: "center" }}>
         <div className="pic" style={{ display: "flex", justifyContent: "space-between", gap: "100px" }}>
           <img src={callImg} alt="" style={{ height: "75px", width: "75px" }} /> <span style={{ fontSize: "45px" }}>||</span>
           <img src={msg} alt="" style={{ height: "75px", width: "75px" }} />

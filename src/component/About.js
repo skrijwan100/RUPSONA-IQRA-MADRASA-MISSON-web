@@ -1,6 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import brdroompic1 from "../Asset/bedroompic1.jpg"
+import foodroutine from "../Asset/foodroutine.jpeg"
 export default function About() {
   return (
     <>
@@ -81,6 +82,33 @@ export default function About() {
       <b style={{color:"#00a539",fontSize:"30px",textDecoration:"underline"}}>ভ্রমণ</b><span style={{fontSize:"25px"}}>কলকাতা ভ্রমণ</span>
       </div>
       <div className="tergetpic">
+        <img  className="tpic"src={brdroompic1} alt="" style={{height:"280px",width:"400px"}}/>
+      </div>
+    </div>
+
+    <TypeAnimation
+     sequence={[
+      // Same substring at the start will only be typed out once, initially
+      'Our weekly food routine',
+      1000, // wait 1s before replacing "Mice" with "Hamsters"
+      'আমাদের সাপ্তাহিক খাবারের রুটিন',
+      1000
+    ]}
+    wrapper="p"
+    speed={40}
+    repeat={Infinity}
+     style={{textAlign:"center",fontSize:"45px",color:"#ff0000"}}
+
+     />
+        <div className="container" style={{display:"flex",justifyContent:"space-evenly",flexWrap:"wrap",backgroundColor:"#a0ffc5",gap:"20px",marginBottom:"10px"}}>
+        <div className="tergetpic" style={{display:"flex",flexDirection:"column",gap:"10px"}}>
+        <div style={{fontSize:"30px",textAlign:"center",color:"#8032cd"}}>খাদ্য তালিকা</div> 
+        <img className="tpic" src={foodroutine} alt="" style={{height:"280px",width:"400px"}} />
+      <a href={foodroutine} download={foodroutine} style={{textAlign:"center"}}><button className='btnfood'>Download food routine</button></a>  
+        </div> 
+      
+      <div className="tergetpic" style={{display:"flex",flexDirection:"column",gap:"10px"}}>
+       <div style={{fontSize:"30px",textAlign:"center",color:"#8032cd"}}>Meal space</div> 
         <img  className="tpic"src={brdroompic1} alt="" style={{height:"280px",width:"400px"}}/>
       </div>
     </div>
