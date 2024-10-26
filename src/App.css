@@ -30,12 +30,15 @@
   width: 330px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 10px;
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out ;
-  background: linear-gradient(45deg, #0015ff, #00ffa4);
+  box-shadow:2px 3px 9px 6px rgb(31 36 40 / 30%);
+ background-color: #86b7ea;
+
   &:hover{
-    transform: scale(1.07);
+    transform: scale(1.05);
   }
 }
 .callbox{
@@ -90,4 +93,41 @@
       background-color: rgb(249, 113, 135); 
 
     }
+}
+
+.whyread{
+  width: 95vw;
+  box-shadow:2px 3px 9px 6px rgb(31 36 40 / 30%);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out ;
+  background-color: #8de5a3;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.point1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 120px;
+  box-shadow:2px 3px 7px 2px rgb(0 0 0 / 31%);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.3s ease-in-out ;
+  background-color: rgb(120, 218, 250);
+  &:hover{
+    transform: scale(1.07);
+  }
+}
+.moreabout{
+  width: 95vw;
+  box-shadow:2px 3px 9px 6px rgb(31 36 40 / 30%);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out ;
+  background-color: #8de5a3;
+  &:hover{
+    transform: scale(1.03);
+  }
 }

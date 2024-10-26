@@ -6,13 +6,13 @@ export default function Contact() {
 
   return (
     <div style={{ marginTop: "-5px" }}>
-      <div className="text" style={{ backgroundColor: "#445871", width: "100vw", display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <div className="text" style={{ backgroundColor: "#a0ffc5", width: "100vw", display: "flex", flexDirection: "column", alignItems: "center" }}>
         <div className="pic" style={{ display: "flex", justifyContent: "space-between", gap: "100px" }}>
           <img src={callImg} alt="" style={{ height: "75px", width: "75px" }} /> <span style={{ fontSize: "45px" }}>||</span>
           <img src={msg} alt="" style={{ height: "75px", width: "75px" }} />
 
         </div>
-        <TypeAnimation className='headtext' style={{fontSize: "xx-large", color: "#00ffa4", fontWeight: "700", padding: "33px" }}
+        <TypeAnimation className='headtext' style={{fontSize: "xx-large", color: "#ff0032", fontWeight: "700", padding: "33px" }}
          sequence={[
           // Same substring at the start will only be typed out once, initially
           '  Call us for Admisson',
@@ -31,8 +31,8 @@ export default function Contact() {
         <div className="callbox" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "350px", width: "400px", borderRadius: "30px" }}>
           <img src={callImg} alt="" style={{ height: "45px", width: "45px", marginTop: "10px" }} />
           <div style={{ fontSize: "40px", fontWeight: "500", color: "#00ff42" }} className="text">Call Us </div>
-          <p style={{ fontSize: "25px", color: "#2096ff", textAlign: "center" }}><b>+91 9735183059 <br /> name</b></p>
-          <p style={{ fontSize: "25px", color: "#2096ff", textAlign: "center" }}><b>+91 9907653727 <br /> name</b></p>
+          <p style={{ fontSize: "25px", color: "#2096ff", textAlign: "center" }}><b>+91 9735183059 <br /> Office number</b></p>
+          <p style={{ fontSize: "25px", color: "#2096ff", textAlign: "center" }}><b>+91 9907653727 <br /> Office number</b></p>
 
 
 

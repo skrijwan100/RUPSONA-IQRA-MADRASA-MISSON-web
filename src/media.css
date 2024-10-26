@@ -29,10 +29,17 @@
         
         width: 96vw !important;
     }
+   
   }
 @media (max-width: 425px) {
     .tpic{
         width: 98vw !important;
+    }
+    .targe-text{
+        height: 115px;
+    }
+    .Service-text{
+        height: 158px;
     }
 }
 @media (max-width: 509px) {
@@ -44,4 +51,24 @@
         .text{
             height: 260px !important;
         }
+}
+
+@media (max-width: 637px) {
+    .whyread{
+        height: 500px !important;
+    }
+
+}
+@media (max-width: 590px) {
+    .system-text{
+        height: 115px !important;
+    }
+    .type-text-more{
+        height: 215px !important;
+        
+    }
+    .type-parents{
+        height: 100px !important;
+
+    }
 }
