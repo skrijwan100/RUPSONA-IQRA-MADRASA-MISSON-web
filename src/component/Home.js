@@ -7,6 +7,8 @@ import { TypeAnimation } from 'react-type-animation';
 import stady1 from "../Asset/stady1.jpeg"
 import stady2 from "../Asset/stady2.jpg"
 
+import Footer from './Footer';
+
 
 export default function Home() {
   const slides = [
@@ -164,19 +166,19 @@ export default function Home() {
             <div className="header-text" style={{ fontSize: "35px", textAlign: "center", backgroundColor: "#78dafa" }}>মাদ্রাসা বিভাগ
             </div>
             <ul style={{ fontSize: "28px" }}>
-              <li style={{marginBottom:"15px"}}> নূরানী বিভাগ </li>
-              <li  style={{marginBottom:"15px"}}>নাজেরা বিভাগ</li>
-              <li  style={{marginBottom:"15px"}}>হেফ্জ বিভাগ</li>
-              <li  style={{marginBottom:"15px"}}>ক্বেরাত বিভাগ</li>
+              <li style={{ marginBottom: "15px" }}> নূরানী বিভাগ </li>
+              <li style={{ marginBottom: "15px" }}>নাজেরা বিভাগ</li>
+              <li style={{ marginBottom: "15px" }}>হেফ্জ বিভাগ</li>
+              <li style={{ marginBottom: "15px" }}>ক্বেরাত বিভাগ</li>
             </ul>
           </div>
           <div className="box1">
             <div className="header-text" style={{ fontSize: "35px", textAlign: "center", backgroundColor: "#78dafa" }}>জেনারেল বিভাগ
             </div>
-            <div style={{ textAlign: "center", fontSize:"35px" }}>
+            <div style={{ textAlign: "center", fontSize: "35px" }}>
               Class
             </div>
-            <ul style={{fontSize:"20px"}}>
+            <ul style={{ fontSize: "20px" }}>
               <li>III</li>
               <li>IV</li>
               <li>V</li>
@@ -201,14 +203,14 @@ export default function Home() {
           speed={40}
           repeat={Infinity}
           className='type-parents'
-          style={{ textAlign: "center", fontSize: "45px", color: "red"}}
+          style={{ textAlign: "center", fontSize: "45px", color: "red" }}
 
         />
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
 
 
-          <div className="whyread" style={{ height: "270px", borderRadius: "13px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: "30px",marginBottom:"20px" }}>
-            <ul style={{fontSize:"20px"}}>
+          <div className="whyread" style={{ height: "270px", borderRadius: "13px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: "30px", marginBottom: "20px" }}>
+            <ul style={{ fontSize: "20px" }}>
               <li> বছরে ৩০ দিনের বেশি ছুটি না নেওয়া রমজান মাসে ১০ দিন কুরবানীতে ৫ দিন স্কুলের ফাইনাল পরীক্ষার পর ৫ দিন এবং বিশেষ প্রয়োজনে ১০ দিনের বেশি ছুটি দেওয়া যাবে না। </li>
               <li>প্রতি মাসে বেতন বাবদ ধার্য টাকা মাসের ১ থেকে ১০ তারিখের মধ্যে দিতে হবে।</li>
               <li>প্রতিষ্ঠানে নির্ধারিত পোশাকের খরচ প্রতিষ্ঠান বহন করিবে।</li>
@@ -227,14 +229,14 @@ export default function Home() {
           wrapper="h2"
           speed={40}
           repeat={Infinity}
-          style={{ textAlign: "center", fontSize: "45px", color: "red"}}
+          style={{ textAlign: "center", fontSize: "45px", color: "red" }}
 
         />
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
 
 
-          <div className="whyread" style={{ height: "270px", borderRadius: "13px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: "30px",marginBottom:"20px" }}>
-            <ul style={{fontSize:"20px"}}>
+          <div className="Special-text" style={{ height: "270px", borderRadius: "13px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: "30px", marginBottom: "20px" }}>
+            <ul style={{ fontSize: "20px" }}>
               <li> আপনাদের সন্তান যদি খুব চঞ্চল হয় অথবা বুদ্ধি কম হয় যা আমাদের আয়ত্তের বাইরে তাহলে কর্তৃপক্ষ আপনার সন্তানকে আপনার কাছে ফিরিয়ে দিতে পারে।</li>
               <li>সমস্ত অভিভাবকদের কাছে অনুরোধ সন্তান মুখে কোন অভিযোগ শুনে কর্তৃপক্ষের সঙ্গে যোগাযোগ না করে কোন রকম মন্তব্য বা পদক্ষেপ না নেওয়া।</li>
               <li>সাধারণ অবস্থায় অভিভাবকগণ সন্তানদের সঙ্গে কেবলমাত্র মাসে একবার যে কোন বৃহস্পতিবার আসর হইতে মাগরিব পর্যন্ত অথবা শুক্রবার সকাল ৭ টা হইতে বেলা ১১ টা পর্যন্ত দেখা করিতে পারিবেন।</li>
@@ -244,6 +246,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
+       <Footer/>
       </div>
     </>
   )

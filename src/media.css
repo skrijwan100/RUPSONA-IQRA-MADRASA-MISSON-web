@@ -56,7 +56,15 @@
 @media (max-width: 637px) {
     .whyread{
         height: 500px !important;
+        
     }
+    
+}
+@media (max-width: 1154px) {
+    .Special-text{
+    height: 650px !important ;
+    }
+  
 
 }
 @media (max-width: 590px) {

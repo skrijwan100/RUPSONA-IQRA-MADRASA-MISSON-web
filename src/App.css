@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Play:wght@400;700&display=swap');
 .navbar {
   position: fixed;
   top:0px; 
@@ -130,4 +131,32 @@
   &:hover{
     transform: scale(1.03);
   }
+}
+
+.Special-text{
+  width: 95vw;
+  box-shadow:2px 3px 9px 6px rgb(31 36 40 / 30%);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out ;
+  background-color: #8de5a3;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.logoicon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 0px 9px 4px rgb(31 36 40 / 30%) ;
+  height: 60px;
+  width: 60px;
+  transition: all 0.4s ease-in-out;
+  &:hover{
+    background-color: #00d9ff;
+    transform: scale(1.05);
+  }
+
 }

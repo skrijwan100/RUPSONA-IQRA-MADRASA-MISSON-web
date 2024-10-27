@@ -7,7 +7,6 @@ import { TypeAnimation } from 'react-type-animation';
 import { useMemo } from 'react';
 const Student = () => {
   const [searchQu] = useSearch()
-  console.log(searchQu)
 
   const filteredName = useMemo(() => {
     if (!searchQu) return details; 

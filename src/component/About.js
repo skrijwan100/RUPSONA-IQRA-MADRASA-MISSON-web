@@ -2,9 +2,9 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import brdroompic1 from "../Asset/bedroompic1.jpg"
 import foodroutine from "../Asset/foodroutine.jpeg"
-import stady1 from "../Asset/stady1.jpeg"
 import travell1 from "../Asset/grute2.jpg"
 import travell2 from "../Asset/travell1.jpg"
+import Footer from './Footer';
 export default function About() {
   return (
     <>
@@ -139,6 +139,7 @@ export default function About() {
           <img className="tpic" src={brdroompic1} alt="" style={{ height: "280px", width: "400px" }} />
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

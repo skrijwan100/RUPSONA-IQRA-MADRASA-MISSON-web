@@ -31,8 +31,8 @@ export default function Contact() {
         <div className="callbox" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "350px", width: "400px", borderRadius: "30px" }}>
           <img src={callImg} alt="" style={{ height: "45px", width: "45px", marginTop: "10px" }} />
           <div style={{ fontSize: "40px", fontWeight: "500", color: "#00ff42" }} className="text">Call Us </div>
-          <p style={{ fontSize: "25px", color: "#2096ff", textAlign: "center" }}><b>+91 9735183059 <br /> Office number</b></p>
-          <p style={{ fontSize: "25px", color: "#2096ff", textAlign: "center" }}><b>+91 9907653727 <br /> Office number</b></p>
+          <p style={{ fontSize: "25px", color: "#00ff59", textAlign: "center" }}><b>+91 9735183059 <br /> Office number</b></p>
+          <p style={{ fontSize: "25px", color: "#00ff59", textAlign: "center" }}><b>+91 9907653727 <br /> Office number</b></p>
 
 
 
