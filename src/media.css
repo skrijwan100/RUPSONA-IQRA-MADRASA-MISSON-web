@@ -80,3 +80,16 @@
 
     }
 }
+@media (max-width: 594px) {
+    .teacher-box{
+        width: 96vw;
+        height: 400px;
+    }
+    /* .text-center{
+        text-align: center;
+    } */
+    .d-text {
+       margin-left: 87px;
+    }
+    
+}

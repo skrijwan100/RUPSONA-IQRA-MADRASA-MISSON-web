@@ -5,6 +5,7 @@ import foodroutine from "../Asset/foodroutine.jpeg"
 import travell1 from "../Asset/grute2.jpg"
 import travell2 from "../Asset/travell1.jpg"
 import Footer from './Footer';
+import travell3 from "../Asset/travell2.jpeg"
 export default function About() {
   return (
     <>
@@ -109,7 +110,7 @@ export default function About() {
           <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>ভ্রমণ</b><span style={{ fontSize: "25px" }}>হাজারদুয়ারি ভ্রমণ</span>
         </div>
         <div className="tergetpic">
-          <img className="tpic" src={travell2} alt="" style={{ height: "280px", width: "400px" }} />
+          <img className="tpic" src={travell3} alt="" style={{ height: "280px", width: "400px" }} />
         </div>
       </div>
       

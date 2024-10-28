@@ -160,3 +160,32 @@
   }
 
 }
+.founder{
+  margin-top:15px;
+  width: 96vw;
+  border-radius: 20px;
+  background-color: #a0ffc5;
+  box-shadow: 4px 4px 14px 10px rgb(31 36 40 / 32%);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  &:hover{
+    transform: scale(1.03);
+    background-color:#7fdca3 ;
+  }
+}
+.teacher-box{
+  height: 265px;
+  width: 600px;
+  box-shadow: 4px 4px 7px 2px rgb(31 36 40 / 32%);
+  border-radius: 18px;
+  cursor: pointer;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+  background:linear-gradient(45deg,#a0ffd6,lightblue);
+  transition:transform 0.4s ease-in-out ;
+  &:hover{
+    transform: scale(1.03);
+  }
+}

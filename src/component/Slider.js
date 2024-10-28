@@ -40,7 +40,7 @@ const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
       <button className="prev-btn" onClick={prevSlide}><img src={arrowback} alt=""  style={{height:"25px",width:"25px"}}/></button>
       <button className="next-btn" onClick={nextSlide}><img src={arrowfrowed} alt="" style={{height:"25px",width:"25px"}} /></button>
 
-      <style jsx>{`
+      <style>{`
         .slider-container {
           position: relative;
           width: 100vw;
