@@ -44,9 +44,9 @@
 }
 .callbox{
   transition: transform 0.3s ease-in-out ;
-  background: linear-gradient(45deg, #445871, #152f50);
+  background: linear-gradient(45deg, #a0ffc5, #a0bcff);
   cursor: pointer;
-  box-shadow: 9px 2px 12px 2px black;
+  box-shadow: 7px 6px 2px 0px #8989897a;
   &:hover{
     transform: scale(1.07);
   }
@@ -54,9 +54,9 @@
 }
 .msgbox{
   transition: transform 0.3s ease-in-out ;
-  background: linear-gradient(45deg, #445871, #152f50);
+  background: linear-gradient(45deg, #a0ffc5, #a0bcff);
   cursor: pointer;
-  box-shadow: 9px 2px 12px 2px black;
+  box-shadow: 7px 6px 2px 0px #8989897a;
   border-radius: 30px;
   &:hover{
     transform: scale(1.07);
@@ -165,7 +165,7 @@
   width: 96vw;
   border-radius: 20px;
   background-color: #a0ffc5;
-  box-shadow: 4px 4px 14px 10px rgb(31 36 40 / 32%);
+  box-shadow: 4px 4px 7px 2px rgb(31 36 40 / 32%);
   cursor: pointer;
   transition: all 0.4s ease-in-out;
   &:hover{

@@ -27,18 +27,18 @@ export default function Contact() {
         repeat={Infinity}/>
 
       </div>
-      <div className="magcall" style={{ display: "flex", justifyContent: "space-around", margin: "10px 0px", flexWrap: "wrap", gap: "20px" }}>
+      <div className="magcall" style={{ display: "flex", justifyContent: "space-around", margin: "20px 0px", flexWrap: "wrap", gap: "20px" }}>
         <div className="callbox" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "350px", width: "400px", borderRadius: "30px" }}>
           <img src={callImg} alt="" style={{ height: "45px", width: "45px", marginTop: "10px" }} />
-          <div style={{ fontSize: "40px", fontWeight: "500", color: "#00ff42" }} className="text">Call Us </div>
-          <p style={{ fontSize: "25px", color: "#00ff59", textAlign: "center" }}><b>+91 9735183059 <br /> Office number</b></p>
-          <p style={{ fontSize: "25px", color: "#00ff59", textAlign: "center" }}><b>+91 9907653727 <br /> Office number</b></p>
+          <div style={{ fontSize: "40px", fontWeight: "500", color: "red" }} className="text">Call Us </div>
+          <p style={{ fontSize: "25px", color: "red", textAlign: "center" }}><b>+91 9735183059 <br /> Office number</b></p>
+          <p style={{ fontSize: "25px", color: "red", textAlign: "center" }}><b>+91 9907653727 <br /> Office number</b></p>
 
 
 
         </div>
         <div className="msgbox" style={{ height: "350px", width: "400px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-          <span style={{ marginBottom: "10px", fontSize: "30px", fontWeight: "600", color: "#00ff42" }}>Message Us</span>
+          <span style={{ marginBottom: "10px", fontSize: "30px", fontWeight: "600", color: "red" }}>Message Us</span>
           <form action="" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "17px 0px" }}>
             <div style={{display:"flex"}} >
               <input className='uname' style={{ outline: "none", height: "25px", width: "310px", borderRadius: "14px", border: "none", padding: "10px" }} type="text" placeholder='Enter your name' required />
