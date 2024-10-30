@@ -1,11 +1,11 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
-import brdroompic1 from "../Asset/bedroompic1.jpg"
 import foodroutine from "../Asset/foodroutine.jpeg"
 import travell1 from "../Asset/grute2.jpg"
 import travell2 from "../Asset/travell1.jpg"
 import Footer from './Footer';
 import travell3 from "../Asset/travell2.jpeg"
+import mealpic from "../Asset/mealpic1.jpg"
 export default function About() {
   return (
     <>
@@ -77,6 +77,31 @@ export default function About() {
       <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
+          'Advisor to the Institute ',
+          1000, // wait 1s before replacing "Mice" with "Hamsters"
+          'প্রতিষ্ঠানের উপদেষ্টা গন',
+          1000
+        ]}
+        wrapper="h2"
+        speed={40}
+        className='type-text-more'
+        repeat={Infinity}
+        style={{ textAlign: "center", fontSize: "45px", color: "#ff0000" }}
+
+      />
+
+      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
+
+    
+      <div className="moreabout " style={{ display: "flex",justifyContent:"center", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px",borderRadius:"15px" }}>
+        <div className="targettext" style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column",padding:"15px",fontSize:"27px",fontWeight:"500" }}>
+        রুপসোনা ইকরা মাদ্রাসা মিশনের উপদেষ্টা গন ।আলহাজ্ব মীর আসরাফ সাহেব ।সহ সেক্রেটারি সেহারাবাজার মাদ্রাসা । হাজী আব্দুল মান্নাফ সাহেব মেটিয়াবুরুজ । জনাব হাজী ইউনুস সাহেব মেটিয়াবুরুজ ।জনাব শেখ ইউসুফ সাহেব মেটিয়াবুরুজ জনাব হাজী শফিকুল সাহেব প্রতিষ্ঠাতা সারা গার্লসমিশন সেহারাবাজার। জনাব আনিস হাজারি বিনোদপুর । মরহুম শেখ নুরজামাল সাহেব রুপসোনা
+        </div>
+      </div>
+      </div>
+      <TypeAnimation
+        sequence={[
+          // Same substring at the start will only be typed out once, initially
           'Our Recent event ',
           1000, // wait 1s before replacing "Mice" with "Hamsters"
           'আমাদের সাম্প্রতিক ঘটনা',
@@ -137,7 +162,7 @@ export default function About() {
 
         <div className="tergetpic" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           <div style={{ fontSize: "30px", textAlign: "center", color: "#8032cd" }}>Meal space</div>
-          <img className="tpic" src={brdroompic1} alt="" style={{ height: "280px", width: "400px" }} />
+          <img className="tpic" src={mealpic} alt="" style={{ height: "280px", width: "400px" }} />
         </div>
       </div>
       <Footer/>

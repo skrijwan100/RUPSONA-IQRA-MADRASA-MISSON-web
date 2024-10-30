@@ -57,7 +57,7 @@
   background: linear-gradient(45deg, #a0ffc5, #a0bcff);
   cursor: pointer;
   box-shadow: 7px 6px 2px 0px #8989897a;
-  border-radius: 30px;
+  border-radius: 15px;
   &:hover{
     transform: scale(1.07);
   }
@@ -185,6 +185,13 @@
   align-items: center;
   background:linear-gradient(45deg,#a0ffd6,lightblue);
   transition:transform 0.4s ease-in-out ;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.tpic{
+  cursor: pointer;
+  transition:transform 0.3s ease-in-out ;
   &:hover{
     transform: scale(1.03);
   }

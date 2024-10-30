@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import callImg from '../Asset/call_black.png'
 import msg from '../Asset/chat.png'
 import { TypeAnimation } from 'react-type-animation';
 export default function Contact() {
+  const form= useRef(null)
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzugRd9s-au8DwIxYS1zdxC02eITauUjfSBzpzdLpvZGXmEk0lTDkkhQlEq_bNQVaw/exec'
+  const onsubmit=(e)=>{
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form.current) })
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message));
+
+  }
 
   return (
     <div style={{ marginTop: "-5px" }}>
@@ -28,7 +37,7 @@ export default function Contact() {
 
       </div>
       <div className="magcall" style={{ display: "flex", justifyContent: "space-around", margin: "20px 0px", flexWrap: "wrap", gap: "20px" }}>
-        <div className="callbox" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "350px", width: "400px", borderRadius: "30px" }}>
+        <div className="callbox" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "350px", width: "400px", borderRadius: "15px" }}>
           <img src={callImg} alt="" style={{ height: "45px", width: "45px", marginTop: "10px" }} />
           <div style={{ fontSize: "40px", fontWeight: "500", color: "red" }} className="text">Call Us </div>
           <p style={{ fontSize: "25px", color: "red", textAlign: "center" }}><b>+91 9735183059 <br /> Office number</b></p>
@@ -39,9 +48,9 @@ export default function Contact() {
         </div>
         <div className="msgbox" style={{ height: "350px", width: "400px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
           <span style={{ marginBottom: "10px", fontSize: "30px", fontWeight: "600", color: "red" }}>Message Us</span>
-          <form action="" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "17px 0px" }}>
+          <form name='submit-to-google-sheet' onSubmit={onsubmit} ref={form} style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "17px 0px" }}>
             <div style={{display:"flex"}} >
-              <input className='uname' style={{ outline: "none", height: "25px", width: "310px", borderRadius: "14px", border: "none", padding: "10px" }} type="text" placeholder='Enter your name' required />
+              <input className='uname'name='name' style={{ outline: "none", height: "25px", width: "310px", borderRadius: "14px", border: "none", padding: "10px" }} type="text" placeholder='Enter your name' required />
               <div>
               <lord-icon
                 src="https://cdn.lordicon.com/kdduutaw.json"
@@ -57,7 +66,7 @@ export default function Contact() {
 
             </div>
             <div style={{display:"flex"}}>
-              <input style={{ outline: "none", height: "25px", width: "310px", borderRadius: "14px", border: "none", padding: "10px" }} type="text" placeholder='Enter call number' required />
+              <input style={{ outline: "none", height: "25px", width: "310px", borderRadius: "14px", border: "none", padding: "10px" }} type="text" placeholder='Enter call number' name='number' required />
               <div>
                 <lord-icon
                   src="https://cdn.lordicon.com/dnphlhar.json"
@@ -72,8 +81,8 @@ export default function Contact() {
             </div>
 
 
-            <textarea style={{ outline: "none", height: "80px", width: "310px", borderRadius: "14px", border: "none", padding: "10px" }} type="text" placeholder='Enter your message' required />
-            <button className='btnmag' style={{ width: "150px", height: "39px", borderRadius: "11px", border: "none", cursor: "pointer" }}>Send message</button>
+            <textarea style={{ outline: "none", height: "80px", width: "310px", borderRadius: "14px", border: "none", padding: "10px" }} type="text" placeholder='Enter your message' name='message' required />
+            <button type='submit' className='btnmag' style={{ width: "150px", height: "39px", borderRadius: "8px", border: "none", cursor: "pointer" }}>Send message</button>
           </form>
         </div>
 
