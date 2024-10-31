@@ -79,6 +79,17 @@
         height: 100px !important;
 
     }
+    .capmpaspic{
+        height: 90px !important;
+    }
+    .wel-text{
+        height: 85px !important;
+        
+    }
+    .name-text{
+        height: 118px !important;
+
+    }
 }
 @media (max-width: 594px) {
     .teacher-box{

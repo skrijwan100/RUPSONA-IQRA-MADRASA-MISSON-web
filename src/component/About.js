@@ -6,6 +6,12 @@ import travell2 from "../Asset/travell1.jpg"
 import Footer from './Footer';
 import travell3 from "../Asset/travell2.jpeg"
 import mealpic from "../Asset/mealpic1.jpg"
+import madrasapic from "../Asset/madrashapic.jpg"
+import madrasapic2 from "../Asset/madrasapic2.jpg"
+import campas1 from "../Asset/campas1.jpg"
+import campas2 from "../Asset/campas2.jpg"
+import campas3 from "../Asset/slide2.jpg"
+import campas4 from "../Asset/slide3.jpg"
 export default function About() {
   return (
     <>
@@ -163,6 +169,43 @@ export default function About() {
         <div className="tergetpic" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           <div style={{ fontSize: "30px", textAlign: "center", color: "#8032cd" }}>Meal space</div>
           <img className="tpic" src={mealpic} alt="" style={{ height: "280px", width: "400px" }} />
+        </div>
+      </div>
+      <TypeAnimation
+        sequence={[
+          // Same substring at the start will only be typed out once, initially
+          'Our campas picture',
+          1000, // wait 1s before replacing "Mice" with "Hamsters"
+          'আমাদের ক্যাম্পাসের ছবি',
+          1000
+        ]}
+        wrapper="h2"
+        speed={40}
+        className='capmpaspic'
+        repeat={Infinity}
+        style={{ textAlign: "center", fontSize: "45px", color: "#ff0000" }}
+
+      />
+      <div className="container" style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px" }}>
+        <div className="tergetpic" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+          <img className="tpic" src={madrasapic} alt="" style={{ height: "280px", width: "400px" }} />
+         
+        </div>
+
+        <div className="tergetpic" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+          <img className="tpic" src={madrasapic2} alt="" style={{ height: "280px", width: "400px" }} />
+        </div>
+        <div className="tergetpic" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+          <img className="tpic" src={campas1} alt="" style={{ height: "280px", width: "400px" }} />
+        </div>
+        <div className="tergetpic" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+          <img className="tpic" src={campas2} alt="" style={{ height: "280px", width: "400px" }} />
+        </div>
+        <div className="tergetpic" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+          <img className="tpic" src={campas3} alt="" style={{ height: "280px", width: "400px" }} />
+        </div>
+        <div className="tergetpic" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+          <img className="tpic" src={campas4} alt="" style={{ height: "280px", width: "400px" }} />
         </div>
       </div>
       <Footer/>

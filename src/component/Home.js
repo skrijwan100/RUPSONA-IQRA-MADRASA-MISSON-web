@@ -1,11 +1,12 @@
 import React from 'react'
 import AutoPlaySlider from './Slider';
 import slid2 from "../Asset/slidepic1.jpeg"
-import slid3 from "../Asset/slide2.jpg"
+
 import slid4 from "../Asset/slide3.jpg"
 import { TypeAnimation } from 'react-type-animation';
 import stady1 from "../Asset/stady1.jpeg"
 import stady2 from "../Asset/stady2.jpg"
+import travell1 from "../Asset/travel3.jpg"
 
 import Footer from './Footer';
 
@@ -13,7 +14,7 @@ import Footer from './Footer';
 export default function Home() {
   const slides = [
     slid4,
-    slid3,
+    travell1,
     slid2,
   ];
   return (
@@ -29,10 +30,11 @@ export default function Home() {
                 'স্বাগত সবাইকে !',
                 1000
               ]}
-              wrapper="b"
+              wrapper="div"
               speed={40}
+              className='wel-text'
               repeat={Infinity}
-              style={{ fontSize: "45px", color: "#ff4000" }}
+              style={{ fontSize: "45px", color: "#ff4000",fontWeight:"600" }}
             />
           </div>
 
@@ -47,6 +49,7 @@ export default function Home() {
             wrapper="p"
             speed={40}
             repeat={Infinity}
+            className='name-text'
             style={{ textAlign: "center", fontSize: "35px", fontWeight: "500", color: "#1700ff" }} />
         </div>
 
@@ -72,19 +75,19 @@ export default function Home() {
 
         <div className="container" style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px" }}>
           <div className="targettext" style={{ width: "509px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
-            <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>উদ্দেশ্য</b><span style={{ fontSize: "25px" }}>কুরআন ও হাদিসের জ্ঞান অর্জনের মাধ্যমে দ্বীনের আলো ছড়িয়ে দেওয়া এবং মৃত ব্যক্তিদের মাগফিরাত কামনা করা।  আল্লাহ পাকের সন্তোষটি এবং মুহাম্মদ (সাঃ)এর শাফায়াত অর্জন করা।</span>
+            <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>উদ্দেশ্য</b><span style={{ fontSize: "25px",padding:"15px" }}>কুরআন ও হাদিসের জ্ঞান অর্জনের মাধ্যমে দ্বীনের আলো ছড়িয়ে দেওয়া এবং মৃত ব্যক্তিদের মাগফিরাত কামনা করা।  আল্লাহ পাকের সন্তোষটি এবং মুহাম্মদ (সাঃ)এর শাফায়াত অর্জন করা।</span>
           </div>
           <div className="tergetpic">
-            <img className="tpic" src={stady1} alt="" style={{ height: "280px", width: "400px" }} />
+            <img className="tpic" src={stady1} alt="Campas pic" style={{ height: "280px", width: "400px" }} />
           </div>
         </div>
 
         <div className="container " style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px" }}>
           <div className="targettext" style={{ width: "509px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
-            <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>লক্ষ্য</b><span style={{ fontSize: "25px" }}> কুরআন ও সুন্নাহর আলোকে শিক্ষার্থীকে যুগোপযোগী আন্তর্জাতিক মানসম্পন্ন চরিত্রবান হাফেজ ও কারি এবং তৎসহ জেনারেল শিক্ষা অর্জনের মাধ্যমে ছাত্রদের প্রতিষ্ঠিত করানোর চেষ্টা করা।</span>
+            <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>লক্ষ্য</b><span style={{ fontSize: "25px",padding:"15px" }}> কুরআন ও সুন্নাহর আলোকে শিক্ষার্থীকে যুগোপযোগী আন্তর্জাতিক মানসম্পন্ন চরিত্রবান হাফেজ ও কারি এবং তৎসহ জেনারেল শিক্ষা অর্জনের মাধ্যমে ছাত্রদের প্রতিষ্ঠিত করানোর চেষ্টা করা।</span>
           </div>
           <div className="tergetpic">
-            <img className="tpic" src={stady2} alt="" style={{ height: "280px", width: "400px" }} />
+            <img className="tpic" src={stady2} alt="Campas" style={{ height: "280px", width: "400px" }} />
           </div>
         </div>
         <TypeAnimation
