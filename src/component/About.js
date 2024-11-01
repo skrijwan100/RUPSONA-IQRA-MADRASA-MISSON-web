@@ -173,6 +173,7 @@ export default function About() {
         ]}
         wrapper="h2"
         speed={40}
+        className='food-routiun'
         repeat={Infinity}
         style={{ textAlign: "center", fontSize: "45px", color: "#ff0000" }}
 

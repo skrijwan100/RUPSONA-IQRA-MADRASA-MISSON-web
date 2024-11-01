@@ -90,6 +90,9 @@
         height: 118px !important;
 
     }
+    .food-routiun{
+        height: 165px !important;
+    }
 }
 @media (max-width: 594px) {
     .teacher-box{

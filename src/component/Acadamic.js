@@ -28,15 +28,15 @@ export default function Acadamic() {
         <div className="teacher-box">
           <img src={teacher1} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
           <div className="d-text" style={{ width: "320px" ,display:"flex", flexDirection:"column",gap:"10px"  }}>
-             <div className='text-center'><b>Nmae:</b> Afzal Mallick <br /> </div>
-             <div className='text-center'><b>Post:</b> Hostal super , Teacher <br /></div>
+             <div className='text-center'><b>Name:</b> Afzal Mallick <br /> </div>
+             <div className='text-center'><b>Post:</b> hostel super , Teacher <br /></div>
              <div className='text-center'><b>Qulalification:</b> Hafez</div>
           </div>
         </div>
         <div className="teacher-box">
           <img src={teacher2} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Nmae:</b> Moulana Shahnawaz Mazahiri <br/></div> 
+           <div className='text-center'><b>Name:</b> Moulana Shahnawaz Mazahiri <br/></div> 
            <div className='text-center'><b>Post:</b> Assistant Teacher <br/></div> 
            <div className='text-center'><b>Qulalification:</b> Hafez and Kari</div> 
           </div>
@@ -44,7 +44,7 @@ export default function Acadamic() {
         <div className="teacher-box">
           <img src={teacher3} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Nmae:</b> Moulana Siddik Miftahi <br/></div>
+           <div className='text-center'><b>Name:</b> Moulana Siddik Miftahi <br/></div>
            <div className='text-center'><b>Post:</b> Assistant Teacher <br/></div>
            <div className='text-center'><b>Qulalification:</b> Hafez and Kari</div>
           </div>
@@ -52,7 +52,7 @@ export default function Acadamic() {
         <div className="teacher-box">
           <img src={teacher4} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Nmae:</b> SK Dulal <br/></div>
+           <div className='text-center'><b>Name:</b> SK Dulal <br/></div>
            <div className='text-center'><b>Post:</b> Assistant Teacher <br/></div>
            <div className='text-center'><b>Qulalification:</b> B.A(Hons-GEO.), M.A , D.EL.ED , B.ED</div>
           </div>
@@ -60,7 +60,7 @@ export default function Acadamic() {
         <div className="teacher-box">
           <img src={teacher5} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Nmae:</b> Munshi Samim Nawaz <br/> </div> 
+           <div className='text-center'><b>Name:</b> Munshi Samim Nawaz <br/> </div> 
            <div className='text-center'><b>Post:</b> Assistant Teacher <br/></div>
            <div className='text-center'><b>Qulalification:</b> B.A (Hons-Eng.) , M.A</div> 
           </div>
@@ -68,7 +68,7 @@ export default function Acadamic() {
         <div className="teacher-box">
           <img src={teacher6} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Nmae:</b> SK Parvej Musaraf Hossen <br/></div> 
+           <div className='text-center'><b>Name:</b> SK Parvej Musaraf Hossen <br/></div> 
            <div className='text-center'><b>Post:</b> Assistant Teacher <br/></div> 
            <div className='text-center'><b>Qulalification:</b> Puer science , Diploma in computer</div> 
           </div>
@@ -76,7 +76,7 @@ export default function Acadamic() {
         <div className="teacher-box">
           <img src={nonteacher1} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Nmae:</b> SK Jiyaul Rahaman <br/></div> 
+           <div className='text-center'><b>Name:</b> SK Jiyaul Rahaman <br/></div> 
            <div className='text-center'><b>Post:</b> Non teaching staff <br/></div> 
            <div className='text-center'><b>Qulalification:</b> class VIII</div> 
           </div>
@@ -84,7 +84,7 @@ export default function Acadamic() {
         <div className="teacher-box">
           <img src={nonteacher2} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%" }} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Nmae:</b> SK. Robiyel <br/></div> 
+           <div className='text-center'><b>Name:</b> SK. Robiyel <br/></div> 
            <div className='text-center'><b>Post:</b> Non teaching staff<br/></div> 
            <div className='text-center'><b>Qulalification:</b> class VIII</div> 
           </div>
@@ -92,7 +92,7 @@ export default function Acadamic() {
         <div className="teacher-box">
           <img src={nonteacher3} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%"}} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Nmae:</b> SK Asraf Ali <br/></div> 
+           <div className='text-center'><b>Name:</b> SK Asraf Ali <br/></div> 
            <div className='text-center'><b>Post:</b> Non teaching staff <br/></div> 
            <div className='text-center'><b>Qulalification:</b> class VIII</div> 
           </div>
