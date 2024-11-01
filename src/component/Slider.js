@@ -1,25 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import arrowback from "../Asset/arrow_back.png"
-import arrowfrowed from "../Asset/arrow_forward.png"
+import React, { useState, useEffect, useCallback } from 'react';
+import arrowback from "../Asset/arrow_back.png";
+import arrowfrowed from "../Asset/arrow_forward.png";
 
 const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-  };
+  }, [slides.length]);
 
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
 
-
   useEffect(() => {
     const slideInterval = setInterval(nextSlide, autoPlayInterval);
-
-
     return () => clearInterval(slideInterval);
-  }, [currentSlide, autoPlayInterval]);
+  }, [nextSlide, autoPlayInterval]);
 
   return (
     <div className="slider-container">
@@ -37,14 +34,17 @@ const AutoPlaySlider = ({ slides, autoPlayInterval = 3000 }) => {
         ))}
       </div>
 
-      <button className="prev-btn" onClick={prevSlide}><img src={arrowback} alt=""  style={{height:"25px",width:"25px"}}/></button>
-      <button className="next-btn" onClick={nextSlide}><img src={arrowfrowed} alt="" style={{height:"25px",width:"25px"}} /></button>
+      <button className="prev-btn" onClick={prevSlide}>
+        <img src={arrowback} alt="" style={{ height: "25px", width: "25px" }} />
+      </button>
+      <button className="next-btn" onClick={nextSlide}>
+        <img src={arrowfrowed} alt="" style={{ height: "25px", width: "25px" }} />
+      </button>
 
       <style>{`
         .slider-container {
           position: relative;
           width: 100vw;
-          
           margin: auto;
           overflow: hidden;
         }
