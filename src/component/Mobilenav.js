@@ -20,6 +20,10 @@ export default function Mobilenav({startLoader}) {
     const handleclick=()=>{
         startLoader()
         setnavlink(false)
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
 
         
     }
