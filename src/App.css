@@ -68,14 +68,15 @@
 .btnmag{
   background-color: #ffffff;
   transition:transform 0.3s ease-in-out ;
-  box-shadow: 3px 3px 4px 0px rgb(51, 51, 51);
+
+  box-shadow: 3px 3px 0px 0px rgb(181 181 181 / 39%);
   font-size: 15px;
   &:hover{
-    transform: scale(1.07);
-    background-color: #d8d3d3;
+    transform: scale(1.03 );
+    box-shadow: 3px 3px 4px 0px rgb(51, 51, 51);
   }
   &:active{
-    background-color: #c9c8c8;
+    background-color: #f2efef;
   }
 }
 .btnfood{

@@ -20,7 +20,7 @@ export default function Footer() {
         marginBottom: "20px"
       }}>
         <div className="logoicon">
-          <Link to="" target='_blank'>
+          <Link to="/" target='_blank'>
             <lord-icon
               src="https://cdn.lordicon.com/bfoumeno.json"
               trigger="hover"
@@ -29,7 +29,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="logoicon">
-          <Link to="https://skrijwanprotfolio.netlify.app/" target='_blank'>
+          <Link to="/" target='_blank'>
             <lord-icon
               src="https://cdn.lordicon.com/japmxdiq.json"
               trigger="hover"
