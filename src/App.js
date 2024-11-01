@@ -55,7 +55,7 @@ function App() {
 
       </div>
       <div className="scrolltext" style={{ paddingTop: "75px" }}>
-        <marquee className="textscroll" behavior="alternate" direction="right" ><b>RUPSONA IQRA MADRASA MISSION  | Esat:2021 | Admisson open | <img src={callimg} alt="" style={{height:"17px",width:"19px"}} /> Call: 9735183059 , 9907653727</b></marquee>
+        <div className="textscroll" behavior="alternate" direction="right" ><b>RUPSONA IQRA MADRASA MISSION  | Esat:2021 | Admisson open | <img src={callimg} alt="" style={{height:"17px",width:"19px"}} /> Call: 9735183059 , 9907653727</b></div>
       </div>
       <div className="element">
         <Routes>

@@ -17,6 +17,7 @@
   font-size: 25px;
   color: #00ff42;
   padding: 6px;
+  text-align: center;
 }
 .showlanlink{
   transition: transform 0.5s ease-in-out;
