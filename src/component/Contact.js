@@ -1,17 +1,24 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import callImg from '../Asset/call_black.png'
 import msg from '../Asset/chat.png'
 import { TypeAnimation } from 'react-type-animation';
-export default function Contact() {
-  const form= useRef(null)
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzugRd9s-au8DwIxYS1zdxC02eITauUjfSBzpzdLpvZGXmEk0lTDkkhQlEq_bNQVaw/exec'
-  const onsubmit=(e)=>{
-    e.preventDefault();
-    fetch(scriptURL, { method: 'POST', body: new FormData(form.current) })
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message));
+import loading from "../Asset/load gif.gif"
+export default function Contact({showAlert}) {
+  const form = useRef(null);
+  const [btnclick,setbtnclick]=useState(false)
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw52IRptA341Lh1ah1Q207G05HVhy0EtSdGP8IDD6-4xXP0WdHvGAGCr3vwPxFh9BVHQg/exec';
 
-  }
+const onsubmit = (e) => {
+  e.preventDefault();
+  setbtnclick(true)
+  fetch(scriptURL, { method: 'POST', body: new FormData(form.current) })
+  .then((response) => {
+    showAlert("Message sent successfully! we contact you soon.","success")
+    form.current.reset();
+    setbtnclick(false)
+    })
+    .catch((error) => console.error('Error!', error.message));
+};
 
   return (
     <div style={{ marginTop: "-5px" }}>
@@ -82,7 +89,9 @@ export default function Contact() {
 
 
             <textarea style={{ outline: "none", height: "80px", width: "310px", borderRadius: "14px", border: "none", padding: "10px" }} type="text" placeholder='Enter your message' name='message' required />
-            <button type='submit' className='btnmag' style={{ width: "150px", height: "39px", borderRadius: "8px", border: "none", cursor: "pointer" }}>Send message</button>
+            <button type='submit' className='btnmag' style={{ width: "150px", height: "39px", borderRadius: "8px", border: "none", cursor: "pointer" }}>{btnclick===false?"Send message":<img src={loading} alt="Campas" style={{height:"35px",width:"130px",background:"transparent"}} />}</button>
+        
+
           </form>
         </div>
 

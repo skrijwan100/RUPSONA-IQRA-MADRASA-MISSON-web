@@ -12,6 +12,8 @@ import campas1 from "../Asset/campas1.jpg"
 import campas2 from "../Asset/campas2.jpg"
 import campas3 from "../Asset/slide2.jpg"
 import campas4 from "../Asset/slide3.jpg"
+import dighapic from "../Asset/dighe_pic.jpeg"
+import sciencecity from "../Asset/science_city.jpeg"
 export default function About() {
   return (
     <>
@@ -121,7 +123,7 @@ export default function About() {
       />
       <div className="container" style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px" }}>
         <div className="targettext" style={{ width: "509px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
-          <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>ভ্রমণ</b><span style={{ fontSize: "25px" }}>কলকাতা ভ্রমণ</span>
+          <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>ভ্রমণ</b><span style={{ fontSize: "25px" }}>কলকাতা ভ্রমণ <br />Augest 2024</span>
         </div>
         <div className="tergetpic">
           <img className="tpic" src={travell1} alt="" style={{ height: "280px", width: "400px" }} />
@@ -129,7 +131,7 @@ export default function About() {
       </div>
       <div className="container" style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px" }}>
         <div className="targettext" style={{ width: "509px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
-          <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>ভ্রমণ</b><span style={{ fontSize: "25px" }}>বাঁকুড়া ভ্রমণ</span>
+          <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>ভ্রমণ</b><span style={{ fontSize: "25px" }}>মুকুটমণিপুর,বাঁকুড়া ভ্রমণ</span>
         </div>
         <div className="tergetpic">
           <img className="tpic" src={travell2} alt="" style={{ height: "280px", width: "400px" }} />
@@ -138,10 +140,26 @@ export default function About() {
       
       <div className="container" style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px" }}>
         <div className="targettext" style={{ width: "509px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
-          <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>ভ্রমণ</b><span style={{ fontSize: "25px" }}>হাজারদুয়ারি ভ্রমণ</span>
+          <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>ভ্রমণ</b><span style={{ fontSize: "25px" }}>হাজারদুয়ারি,মুর্শিদাবাদ ভ্রমণ <br /> March 2023</span>
         </div>
         <div className="tergetpic">
           <img className="tpic" src={travell3} alt="" style={{ height: "280px", width: "400px" }} />
+        </div>
+      </div>
+      <div className="container" style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px" }}>
+        <div className="targettext" style={{ width: "509px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
+          <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>ভ্রমণ</b><span style={{ fontSize: "25px" }}>দীঘা ভ্রমণ  <br /> February 2022</span>
+        </div>
+        <div className="tergetpic">
+          <img className="tpic" src={dighapic} alt="" style={{ height: "280px", width: "400px" }} />
+        </div>
+      </div>
+      <div className="container" style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px" }}>
+        <div className="targettext" style={{ width: "509px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
+          <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>ভ্রমণ</b><span style={{ fontSize: "25px" }}>বর্ধমান সাইনসিটি <br /> Octobar 2021</span>
+        </div>
+        <div className="tergetpic">
+          <img className="tpic" src={sciencecity} alt="" style={{ height: "280px", width: "400px" }} />
         </div>
       </div>
       

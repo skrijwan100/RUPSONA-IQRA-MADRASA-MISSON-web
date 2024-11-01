@@ -11,6 +11,7 @@ import { useState } from 'react';
 import Loader from './component/Loder';
 import "./media.css"
 import Mobilenav from './component/Mobilenav';
+import Alert from './component/Alert';
 
 
 
@@ -18,6 +19,7 @@ import Mobilenav from './component/Mobilenav';
 function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [alert, setalert] = useState(null)
 
   
   // Function to start the loader
@@ -36,10 +38,17 @@ function App() {
       });
     }, 50);
   };
+  const showAlert = (msg, ty) => {
+    setalert({
+      msg: msg,
+      ty: ty
+    })
+  }
   return (
 
     <Router>
       <Loader isLoading={isLoading} progress={progress}  />
+      <Alert alert={alert}/>
       <div className='navbar'>
         <Navbar startLoader={startLoader} />
         <Mobilenav startLoader={startLoader}/>
@@ -53,7 +62,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/acadamic' element={<Acadamic />} />
-          <Route path='/contac' element={<Contact />} />
+          <Route path='/contac' element={<Contact showAlert={showAlert} />} />
           <Route path='/student' element={<Student />} />
         </Routes>
 
