@@ -215,7 +215,7 @@ export default function Home() {
           <div className="whyread" style={{ height: "270px", borderRadius: "13px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: "30px", marginBottom: "20px" }}>
             <ul style={{ fontSize: "20px" }}>
               <li> বছরে ৩০ দিনের বেশি ছুটি না নেওয়া রমজান মাসে ১০ দিন কুরবানীতে ৫ দিন স্কুলের ফাইনাল পরীক্ষার পর ৫ দিন এবং বিশেষ প্রয়োজনে ১০ দিনের বেশি ছুটি দেওয়া যাবে না। </li>
-              <li style={{backgroundColor:"yellow",color:"red"}}>প্রতি মাসে বেতন বাবদ ধার্য টাকা মাসের ১ থেকে ১০ তারিখের মধ্যে দিতে হবে।</li>
+              <li style={{backgroundColor:"yellow",color:"red"}}>প্রতি মাসে বোর্ডিং বাবদ ধার্য টাকা মাসের ১ থেকে ১০ তারিখের মধ্যে দিতে হবে।</li>
               <li>প্রতিষ্ঠানে নির্ধারিত পোশাকের খরচ প্রতিষ্ঠান বহন করিবে।</li>
               <li>প্রত্যেক নতুন বছরে নতুন করে ভর্তি হতে হবে তবে পুরাতন ছাত্রদের ভর্তি ফি কম থাকিবে ।</li>
             </ul>

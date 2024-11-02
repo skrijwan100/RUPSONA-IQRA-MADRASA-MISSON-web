@@ -32,7 +32,7 @@ export default function Mobilenav({startLoader}) {
         <div className='shownav' style={{ display: "none" }}>
             <div className="left" style={{backgroundColor:"rgb(37 36 36)",display:"flex", justifyContent:"space-between"}} >
 
-                <span style={{ display: "flex",alignItems:"center" }}><img src={logo} alt="" style={{ width: "75px", height: "75px", borderRadius: "50%", marginRight: "10px",padding:"10px" }} /><p className='navname' style={{ color: "#00ffc2", fontWeight: "700",fontSize:"13px"}}>RUPSONA IQRA MADRASA MISSION <br />Rupsona, Raina, Purba Bardhaman, 713421</p>
+                <span style={{ display: "flex",alignItems:"center" }}><img src={logo} alt="" style={{ width: "75px", height: "75px", borderRadius: "50%", marginRight: "10px",padding:"10px" }} /><p className='navname' style={{ color: "#00ffc2", fontWeight: "700",fontSize:"13px"}}>RUPSONA IQRA MADRASA MISSION <br />Rupsona, Raina, Purba Bardhaman, 713421,GOV. REG. NO:IV0061/23</p>
 
                 </span>
              

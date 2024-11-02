@@ -15,7 +15,7 @@ export default function Navbar({startLoader}) {
         <div className='navhide'>
             <nav style={{ display: "flex", justifyContent: "space-between", alignItems: "center", backgroundColor: "rgb(37 36 36)", color: "white", cursor: "pointer" }}>
                 <div className="left" >
-                    <span style={{ display: "flex" }}><img src={logo} alt="" style={{ width: "75px", height: "75px",borderRadius:"50%", marginRight:"10px"}} /><p className='navname' style={{ color: "#00ffc2", fontWeight: "700" }}>RUPSONA IQRA MADRASA MISSION <br />Rupsona, Raina, Purba Bardhaman, 713421</p>
+                    <span style={{ display: "flex" }}><img src={logo} alt="" style={{ width: "75px", height: "75px",borderRadius:"50%", marginRight:"10px"}} /><p className='navname' style={{ color: "#00ffc2", fontWeight: "700" }}>RUPSONA IQRA MADRASA MISSION <br />Rupsona, Raina, Purba Bardhaman, 713421,GOV. REG. NO:IV0061/23</p>
                     </span>
                 </div>
                 <div className="right" style={{ marginRight: "22px" }}>
