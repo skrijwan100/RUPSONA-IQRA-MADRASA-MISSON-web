@@ -66,21 +66,21 @@ export default function About() {
 
       />
 
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
 
-    
-      <div className="moreabout " style={{ display: "flex",justifyContent:"center", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px",borderRadius:"15px" }}>
-        <div className="targettext" style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column",padding:"15px" }}>
-         <ul style={{fontSize:"22px"}}>
-          <li>সকাল ৬-৭ টার মধ্যে নাস্তা ছোলা মুড়ি লিকার চা অথবা ছোলা আলু ভাজা অথবা ঘুঘনী মুড়ি অথবা ডিম সেদ্ধ কলা রুটি এই ধরনের কিছু হালকা খাবার।</li>
-          <li>বেলা ৯:৩০ মিনিট থেকে ১০:৩০ মিনিটের মধ্যে ভাত অথবা খিচুড়ি দেওয়া হবে।</li>
-          <li>জোহরবাদ দুপুরের খাবার সপ্তাহে চারদিন গোস্ত একদিন মাছ একদিন ডিম ও একদিন বিরিয়ানি। আসর বাদ মুড়ি রাত্রে যেকোনো দুটি তরকারির ব্যবস্থা থাকবে। শীতকালীন রাত্রে দুধের ব্যবস্থা থাকবে। তবে সময় সাপেক্ষে খাবারের নিয়ম পরিবর্তন হইতে পারে।</li>
-          <li>সপ্তাহে দুদিন ছাত্রদের জামা কাপড় ধুইয়ে দেওয়ার ব্যবস্থা থাকিবে। </li>
-          <li>আপনার সন্তানের সুস্থতা ও পরিষ্কার পরিচ্ছন্নতার দিকে কর্তৃপক্ষের বিশেষ খেয়াল থাকবে। </li>
-          ( ইনশাল্লাহ)
-         </ul>
+
+        <div className="moreabout " style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px", borderRadius: "15px" }}>
+          <div className="targettext" style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "15px" }}>
+            <ul style={{ fontSize: "22px" }}>
+              <li>সকাল ৬-৭ টার মধ্যে নাস্তা ছোলা মুড়ি লিকার চা অথবা ছোলা আলু ভাজা অথবা ঘুঘনী মুড়ি অথবা ডিম সেদ্ধ কলা রুটি এই ধরনের কিছু হালকা খাবার।</li>
+              <li>বেলা ৯:৩০ মিনিট থেকে ১০:৩০ মিনিটের মধ্যে ভাত অথবা খিচুড়ি দেওয়া হবে।</li>
+              <li>জোহরবাদ দুপুরের খাবার সপ্তাহে চারদিন গোস্ত একদিন মাছ একদিন ডিম ও একদিন বিরিয়ানি। আসর বাদ মুড়ি রাত্রে যেকোনো দুটি তরকারির ব্যবস্থা থাকবে। শীতকালীন রাত্রে দুধের ব্যবস্থা থাকবে। তবে সময় সাপেক্ষে খাবারের নিয়ম পরিবর্তন হইতে পারে।</li>
+              <li>সপ্তাহে দুদিন ছাত্রদের জামা কাপড় ধুইয়ে দেওয়ার ব্যবস্থা থাকিবে। </li>
+              <li>আপনার সন্তানের সুস্থতা ও পরিষ্কার পরিচ্ছন্নতার দিকে কর্তৃপক্ষের বিশেষ খেয়াল থাকবে। </li>
+              ( ইনশাল্লাহ)
+            </ul>
+          </div>
         </div>
-      </div>
       </div>
       <TypeAnimation
         sequence={[
@@ -98,14 +98,14 @@ export default function About() {
 
       />
 
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
 
-    
-      <div className="moreabout " style={{ display: "flex",justifyContent:"center", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px",borderRadius:"15px" }}>
-        <div className="targettext" style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column",padding:"15px",fontSize:"27px",fontWeight:"500" }}>
-        রুপসোনা ইকরা মাদ্রাসা মিশনের উপদেষ্টা গন ।আলহাজ্ব মীর আসরাফ সাহেব ।সহ সেক্রেটারি সেহারাবাজার মাদ্রাসা । হাজী আব্দুল মান্নাফ সাহেব মেটিয়াবুরুজ । জনাব হাজী ইউনুস সাহেব মেটিয়াবুরুজ ।জনাব শেখ ইউসুফ সাহেব মেটিয়াবুরুজ জনাব হাজী শফিকুল সাহেব প্রতিষ্ঠাতা সারা গার্লসমিশন সেহারাবাজার। জনাব আনিস হাজারি বিনোদপুর । মরহুম শেখ নুরজামাল সাহেব রুপসোনা
+
+        <div className="moreabout " style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px", borderRadius: "15px" }}>
+          <div className="targettext" style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "15px", fontSize: "27px", fontWeight: "500" }}>
+            রুপসোনা ইকরা মাদ্রাসা মিশনের উপদেষ্টা গন ।আলহাজ্ব মীর আসরাফ সাহেব ।সহ সেক্রেটারি সেহারাবাজার মাদ্রাসা । হাজী আব্দুল মান্নাফ সাহেব মেটিয়াবুরুজ । জনাব হাজী ইউনুস সাহেব মেটিয়াবুরুজ ।জনাব শেখ ইউসুফ সাহেব মেটিয়াবুরুজ জনাব হাজী শফিকুল সাহেব প্রতিষ্ঠাতা সারা গার্লসমিশন সেহারাবাজার। জনাব আনিস হাজারি বিনোদপুর । মরহুম শেখ নুরজামাল সাহেব রুপসোনা
+          </div>
         </div>
-      </div>
       </div>
       <TypeAnimation
         sequence={[
@@ -137,7 +137,7 @@ export default function About() {
           <img className="tpic" src={travell2} alt="" style={{ height: "280px", width: "400px" }} />
         </div>
       </div>
-      
+
       <div className="container" style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px" }}>
         <div className="targettext" style={{ width: "509px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
           <b style={{ color: "#00a539", fontSize: "30px", textDecoration: "underline" }}>ভ্রমণ</b><span style={{ fontSize: "25px" }}>হাজারদুয়ারি,মুর্শিদাবাদ ভ্রমণ <br /> March 2023</span>
@@ -162,7 +162,7 @@ export default function About() {
           <img className="tpic" src={sciencecity} alt="" style={{ height: "280px", width: "400px" }} />
         </div>
       </div>
-      
+
       <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
@@ -208,7 +208,7 @@ export default function About() {
       <div className="container" style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap", backgroundColor: "#a0ffc5", gap: "20px", marginBottom: "10px" }}>
         <div className="tergetpic" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           <img className="tpic" src={madrasapic} alt="" style={{ height: "280px", width: "400px" }} />
-         
+
         </div>
 
         <div className="tergetpic" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
@@ -227,7 +227,12 @@ export default function About() {
           <img className="tpic" src={campas4} alt="" style={{ height: "280px", width: "400px" }} />
         </div>
       </div>
-      <Footer/>
+      <div style={{ width: "100%", height: "400px", display: "flex", justifyContent: "center", marginBottom:"70px" }}>
+
+        <iframe key="hhgusu" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14681.819934835052!2d87.87250024932673!3d23.08043466612867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f840cd11160f59%3A0xf914d7cdb2d9a3f8!2sRupsona%2C%20West%20Bengal%20713424!5e0!3m2!1sen!2sin!4v1734767572476!5m2!1sen!2sin" width="600" height="450" style={{ "border": 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"title='Google Maps Location of Our Office'></iframe>
+        {/* eslint-disable-next-line */}
+      </div>
+      <Footer />
     </>
   )
 }
