@@ -10,7 +10,7 @@ import teacher6 from "../Asset/teacher/bittu.jpeg"
 import nonteacher1 from "../Asset/teacher/nonteacher1.jpg"
 import nonteacher2 from "../Asset/teacher/nonteacher2.jpg"
 import nonteacher3 from "../Asset/teacher/nonteacher3.jpg"
-
+import newteacher4 from "../Asset/teacher/newtaecher4.jpeg"
 
 export default function Acadamic() {
   return (
@@ -75,11 +75,11 @@ export default function Acadamic() {
           </div>
         </div>
         <div className="teacher-box">
-          <img src={teacher6} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
+          <img src={newteacher4} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Name:</b> SK Parvej Musaraf Hossen <br/></div> 
+           <div className='text-center'><b>Name:</b> Sk Saiful <br/></div> 
            <div className='text-center'><b>Post:</b> Assistant Teacher <br/></div> 
-           <div className='text-center'><b>Qulalification:</b> Puer science , Diploma in computer</div> 
+           <div className='text-center'><b>Qulalification:</b> Eng(Hons),M.A,B.ed</div> 
           </div>
         </div>
         <div className="teacher-box">
