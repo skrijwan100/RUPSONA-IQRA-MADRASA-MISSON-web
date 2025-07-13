@@ -1,8 +1,9 @@
 import React from 'react'
 import founder from "../Asset/teacher/founder-pic.jpg"
 import teacher1 from "../Asset/teacher/afzal.jpg"
-import teacher2 from "../Asset/teacher/shahnawaz.jpg"
-import teacher3 from "../Asset/teacher/siddik.jpg"
+import teacher2 from "../Asset/teacher/newteacher1.jpeg"
+import newteacher2 from "../Asset/teacher/newteacher2.jpeg"
+import teacher3 from "../Asset/teacher/newteacher3.jpeg"
 import teacher4 from "../Asset/teacher/dula.jpg"
 import teacher5 from "../Asset/teacher/smaim.jpg"
 import teacher6 from "../Asset/teacher/bittu.jpeg"
@@ -36,7 +37,7 @@ export default function Acadamic() {
         <div className="teacher-box">
           <img src={teacher2} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Name:</b> Moulana Shahnawaz Mazahiri <br/></div> 
+           <div className='text-center'><b>Name:</b> Abdur Rashid <br/></div> 
            <div className='text-center'><b>Post:</b> Assistant Teacher <br/></div> 
            <div className='text-center'><b>Qulalification:</b> Hafez and Kari</div> 
           </div>
@@ -44,9 +45,17 @@ export default function Acadamic() {
         <div className="teacher-box">
           <img src={teacher3} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
           <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
-           <div className='text-center'><b>Name:</b> Moulana Siddik Miftahi <br/></div>
+           <div className='text-center'><b>Name:</b>Abdus Salam <br/></div>
            <div className='text-center'><b>Post:</b> Assistant Teacher <br/></div>
            <div className='text-center'><b>Qulalification:</b> Hafez and Kari</div>
+          </div>
+        </div>
+        <div className="teacher-box">
+          <img src={newteacher2} alt="Campas" style={{ height: "200px", width: "200px", borderRadius: "50%", objectFit: "cover" }} />
+          <div className="d-text" style={{ width: "320px",display:"flex", flexDirection:"column",gap:"10px" }}>
+           <div className='text-center'><b>Name:</b> Sk Riyajul Huda <br/></div>
+           <div className='text-center'><b>Post:</b> Assistant Teacher <br/></div>
+           <div className='text-center'><b>Qulalification:</b> Hafez</div>
           </div>
         </div>
         <div className="teacher-box">
